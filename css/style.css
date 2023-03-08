@@ -466,6 +466,8 @@ header .navbar ul li a:hover{
     padding: 10px;
     margin-bottom: 2%;
     background-color: #333;
+    color: #fff;
+    text-transform: lowercase;
 }
 .message form input:focus,
 .message form textarea:focus {
@@ -490,7 +492,9 @@ header .navbar ul li a:hover{
     font-size: 16px;
     padding: 10px;
     background-color: #333;
+    color: #fff;
     resize: none;
+    text-transform: lowercase;
 }
 .top{
     position: fixed;
