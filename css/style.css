@@ -388,6 +388,7 @@ header .navbar ul li a:hover{
 .portfolio .box-container .box {
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 40px;
     transition: 1s;
     position: relative;
@@ -400,6 +401,9 @@ header .navbar ul li a:hover{
     right: -120%;
     flex-direction: row-reverse;
     
+}
+.portfolio .box .image .phone {
+    width: 205px;
 }
 .portfolio .box .image {
     width: 50%;
@@ -610,3 +614,4 @@ header .navbar ul li a:hover{
         margin-right: 0;
     }
 }
+
